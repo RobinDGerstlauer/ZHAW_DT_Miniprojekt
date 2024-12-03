@@ -2,7 +2,6 @@
 
 
 -- gerst, wyssl, stald
--- 03.12.2024
 
 -------------------------------------------
 
@@ -32,7 +31,7 @@ ARCHITECTURE rtl OF baud_tick IS
 -------------------------------------------
 CONSTANT		clock_freq			: positive := 12_500_000; --Clock/Hz
 CONSTANT		baud_rate			: positive := 115_200; --Baude Rate/Hz
-CONSTANT		count_width			: positive := 6; --FreqClock/FreqBaudRate = log2(clock_freq/baud_rate) = 7bits
+CONSTANT		count_width			: positive := 7; --FreqClock/FreqBaudRate = log2(clock_freq/baud_rate) = 7bits
 CONSTANT  	one_period			: unsigned(count_width-1 downto 0):= to_unsigned(clock_freq/baud_rate ,count_width);
 CONSTANT		half_period			: unsigned(count_width-1 downto 0):= to_unsigned(clock_freq/baud_rate/2 ,count_width);
 SIGNAL 		count, next_count	: unsigned(count_width-1 downto 0);	 
@@ -86,11 +85,6 @@ BEGIN
   	IF (count = 0) THEN
 		baud_tick <= '1';
    END IF;
-	
-	IF (start_bit = '1') THEN
-		baud_tick <= '0';
-	END IF;
-		
 	
   END PROCESS output;	
 

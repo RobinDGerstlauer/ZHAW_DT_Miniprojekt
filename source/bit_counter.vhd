@@ -1,15 +1,7 @@
 -------------------------------------------
 -- Block code:  count_down.vhd
 -- History:     12.Nov.2013 - 1st version (dqtm)
---                 <date> - <changes>  (<author>)
--- Function: down-counter, with start input and count output. 
---                      The input start should be a pulse which causes the 
---                      counter to load its max-value. When start is off,
---                      the counter decrements by one every clock cycle till 
---                      count_o equals 0. Once the count_o reachs 0, the counter
---                      freezes and wait till next start pulse. 
---                      Can be used as enable for other blocks where need to 
---                      count number of iterations.
+-- gerst, wyssl, stald 3.12.2024
 -------------------------------------------
 
 
@@ -22,21 +14,23 @@ use ieee.numeric_std.all;
 
 -- Entity Declaration 
 -------------------------------------------
-entity count_down is
-  generic (width : positive := 4);
-  port(clk, reset_n : in  std_logic;
-       start_i      : in  std_logic;
-       count_o      : out std_logic_vector(width-1 downto 0)
+entity bit_counter is
+  generic (width : positive := 4); -- Breite des Zaehlers
+  port(
+       clk, reset_n : in  std_logic;
+       start_bit    : in  std_logic; -- Startsignal
+       baud_tick    : in  std_logic; -- Takt fuer die Zaehlung
+       bit_count    : out std_logic_vector(width-1 downto 0) -- Ausgang des Zaehlers
        );
-end count_down;
+end bit_counter;
 
 
 -- Architecture Declaration
 -------------------------------------------
-architecture rtl of count_down is
+architecture rtl of bit_counter is
 -- Signals & Constants Declaration
 -------------------------------------------
-  constant max_val         : unsigned(width-1 downto 0) := to_unsigned(4, width);  -- convert integer value 4 to unsigned with 4bits
+  constant max_val         : unsigned(width-1 downto 0) := to_unsigned(9, width);  -- Max. Val. =9
   signal count, next_count : unsigned(width-1 downto 0);
 
 
@@ -44,28 +38,25 @@ architecture rtl of count_down is
 -------------------------------------------
 begin
 
-
   --------------------------------------------------
   -- PROCESS FOR COMBINATORIAL LOGIC
   --------------------------------------------------
-  comb_logic : process(start_i, count)
+  bit_counter : process(start_bit, baud_tick, count)
   begin
-    -- load     
-    if (start_i = '1') then
-      next_count <= max_val;
+    
+    if (start_bit = '1') then
+      next_count <= to_unsigned(0, width);
 
-    -- decrement
-    elsif (count > 0) then
-      next_count <= count - 1;
 
-    -- freezes
+    elsif (baud_tick = '1' and count > max_val) then
+      next_count <= count+1;
+
+   
     else
       next_count <= count;
     end if;
 
-  end process comb_logic;
-
-
+  end process bit_counter;
 
 
   --------------------------------------------------
@@ -74,9 +65,9 @@ begin
   flip_flops : process(clk, reset_n)
   begin
     if reset_n = '0' then
-      count <= to_unsigned(0, width);  -- convert integer value 0 to unsigned with 4bits
+      count <= to_unsigned(0, width);  -- reset counter
     elsif rising_edge(clk) then
-      count <= next_count;
+      count <= next_count;            
     end if;
   end process flip_flops;
 
@@ -84,9 +75,8 @@ begin
   --------------------------------------------------
   -- CONCURRENT ASSIGNMENTS
   --------------------------------------------------
-  -- convert count from unsigned to std_logic (output data-type)
-  count_o <= std_logic_vector(count);
-
+  
+  bit_count <= std_logic_vector(count);
 
 -- End Architecture 
 ------------------------------------------- 
