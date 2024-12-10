@@ -1,7 +1,8 @@
 -------------------------------------------
 -- Block code:  uart_controller_fsm.vhd
-
---              10.12.2024 - uart_controller_fsm version (wysslrob,gerstrob, staldoli)
+-- History:     15.Jan.2017 - 1st version (dqtm)
+--              19.Jan.2017 - further reduction for SEP HS17
+--              10.12.2024 - uart_controller_fsm version (wysslrob,gerstrob, staldoli )
 -- Function: 
 -------------------------------------------
 

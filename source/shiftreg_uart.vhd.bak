@@ -15,7 +15,7 @@ use ieee.std_logic_1164.all;
 -------------------------------------------
 entity shiftreg_uart is
   generic (
-    width : positive := 10);
+    width : positive := 4);
   port(clk, reset_n : in  std_logic;  -- Attention, this block has a set_n input for initialisation!!
     shift_enable  : in  std_logic;  -- Aktiviert das Schieben
 	 load_in       : in  std_logic;  -- Signal zum Laden neuer Daten
