@@ -1,7 +1,7 @@
 -------------------------------------------
 -- Block code:  count_down.vhd
 -- History:     12.Nov.2013 - 1st version (dqtm)
---                 <date> - <changes>  (<author>)
+--              10.12.2024 - Wysslrob, Gerstrob, Staldoli
 -- Function: down-counter, with start input and count output. 
 --                      The input start should be a pulse which causes the 
 --                      counter to load its max-value. When start is off,
