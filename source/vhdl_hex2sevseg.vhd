@@ -23,78 +23,43 @@ use ieee.std_logic_1164.all;
 -- Entity Declaration 
 entity vhdl_hex2sevseg is
   port(
-		data_in : IN std_logic_vector(3 downto 0);
-		lt_n : IN std_logic;
-		blank_n : IN std_logic;
-		rbi_n : IN std_logic;
-		seg_o : OUT std_logic_vector(6 downto 0);
-		rbo_n : OUT std_logic);
+    blank_n    	 : in  std_logic;                      -- Input of entity
+    lt_n    		 : in  std_logic;   
+	 rbi_n    		 : in  std_logic;    
+	 -- Input of entity
+    data_in 		 : IN std_logic_vector(3 downto 0);   -- Inputs of entity
+    seg_o 			 : OUT std_logic_vector(6 downto 0); 
+	 rbo_n			 : OUT std_logic);
+	 
+	 -- Outputs of entity
+	 
 end vhdl_hex2sevseg;
 
--- Architecture Declaration�
-architecture hex2sevseg of vhdl_hex2sevseg is
+-- Architecture Declaration 
+architecture vhdl_hex2sevseg_a of vhdl_hex2sevseg is
 
-  -- Signals & Constants Declaration�   
-  constant zero   : std_logic_vector(6 downto 0) := "1000000";
-  constant one   : std_logic_vector(6 downto 0) := "1111001";
-  constant two   : std_logic_vector(6 downto 0) := "0100100";
-  constant three   : std_logic_vector(6 downto 0) := "0110000";
-  constant four   : std_logic_vector(6 downto 0) := "0011001";
-  constant five   : std_logic_vector(6 downto 0) := "0010010";
-  constant six   : std_logic_vector(6 downto 0) := "0000010";
-  constant seven   : std_logic_vector(6 downto 0) := "1111000";
-  constant eight   : std_logic_vector(6 downto 0) := "0000000";
-  constant nine   : std_logic_vector(6 downto 0) := "0010000";
-  constant ten   : std_logic_vector(6 downto 0) := "0001000";
-  constant eleven   : std_logic_vector(6 downto 0) := "0000011";
-  constant twelve   : std_logic_vector(6 downto 0) := "1000110";
-  constant thirteen   : std_logic_vector(6 downto 0) := "0100001";
-  constant fourteen   : std_logic_vector(6 downto 0) := "0000110";
-  constant fifteen   : std_logic_vector(6 downto 0) := "0001110";
-  constant blank   : std_logic_vector(6 downto 0) := "1111111";
-  constant full	: std_logic_vector(6 downto 0) := "0000000";
- 
+  -- Signals & Constants Declaration    
+  constant val_0   : std_logic_vector(6 downto 0) := "1000000";
+  constant val_1   : std_logic_vector(6 downto 0) := "1111001";
+  constant val_2   : std_logic_vector(6 downto 0) := "0100100";
+  constant val_3   : std_logic_vector(6 downto 0) := "0110000";
+  constant val_4   : std_logic_vector(6 downto 0) := "0011001";
+  constant val_5   : std_logic_vector(6 downto 0) := "0010010";
+  constant val_6   : std_logic_vector(6 downto 0) := "0000010";
+  constant val_7   : std_logic_vector(6 downto 0) := "1111000";
+  constant val_8   : std_logic_vector(6 downto 0) := "0000000";
+  constant val_9   : std_logic_vector(6 downto 0) := "0010000";
+  constant val_a   : std_logic_vector(6 downto 0) := "0001000";
+  constant val_b   : std_logic_vector(6 downto 0) := "0000011";
+  constant val_c   : std_logic_vector(6 downto 0) := "1000110";
+  constant val_d   : std_logic_vector(6 downto 0) := "0100001";
+  constant val_e   : std_logic_vector(6 downto 0) := "0000110";
+  constant val_f   : std_logic_vector(6 downto 0) := "0001110";
   
+
+
 -- Begin Architecture
 begin
-	muxer: PROCESS(all)
-	BEGIN
-	
-		rbo_n <= '1';
-		
-		IF blank_n = '0' THEN 
-			seg_o <= blank;
-	
-		ELSIF lt_n = '0' THEN
-			seg_o <= full;	
-			
-		ELSE 
-			CASE data_in IS
-				WHEN "0000" => seg_o <= zero; 
-					IF rbi_n = '0' THEN
-						rbo_n <= '0';
-						seg_o <= blank;
-					END IF;
-				WHEN "0001" => seg_o <= one;
-				WHEN "0010" => seg_o <= two;
-				WHEN "0011" => seg_o <= three;
-				WHEN "0100" => seg_o <= four;
-				WHEN "0101" => seg_o <= five;
-				WHEN "0110" => seg_o <= six;
-				WHEN "0111" => seg_o <= seven;
-				WHEN "1000" => seg_o <= eight;
-				WHEN "1001" => seg_o <= nine;
-				WHEN "1010" => seg_o <= ten;
-				WHEN "1011" => seg_o <= eleven;
-				WHEN "1100" => seg_o <= twelve;
-				WHEN "1101" => seg_o <= thirteen;
-				WHEN "1110" => seg_o <= fourteen;
-				WHEN OTHERS => seg_o <= fifteen;
-			END CASE;
-		END IF;
-	END PROCESS muxer;
-
-	
   -------------------------------------------
   -- Process for combinatorial logic
   ------------------------------------------- 
@@ -103,7 +68,47 @@ begin
   -- Concurrent Assignements  
   -- e.g. Assign outputs from intermediate signals
   -------------------------------------------
+  muxer :  Process(all)
+  begin
+  rbo_n <= '1';
+  IF blank_n THEN
+	IF lt_n THEN
+		CASE data_in IS
+			WHEN "0000" => 
+				IF rbi_n then 
+					seg_o <= val_0;
+				ELSE  
+					seg_o <= "1111111";
+					rbo_n <= '0';
+				END IF;
+			WHEN "0001" => seg_o <= val_1;
+			WHEN "0010" => seg_o <= val_2;
+			WHEN "0011" => seg_o <= val_3;
+			WHEN "0100" => seg_o <= val_4;
+			WHEN "0101" => seg_o <= val_5;
+			WHEN "0110" => seg_o <= val_6;
+			WHEN "0111" => seg_o <= val_7;
+			WHEN "1000" => seg_o <= val_8;
+			WHEN "1001" => seg_o <= val_9;
+			WHEN "1010" => seg_o <= val_a;
+			WHEN "1011" => seg_o <= val_b;
+			WHEN "1100" => seg_o <= val_c;
+			WHEN "1101" => seg_o <= val_d;
+			WHEN "1110" => seg_o <= val_e;
+			WHEN "1111" => seg_o <= val_f;
+			WHEN OTHERS => seg_o <= "1111111";
+		end Case;
+		ELSE
+			seg_o <= val_8;
+		End IF;
+	 ELSE
+			seg_o <= "1111111";
+	 end IF; 
+	 
+	END Process;
+	
+		
+  
 
 -- End Architecture 
-end hex2sevseg;
-
+end vhdl_hex2sevseg_a;
