@@ -1,0 +1,28 @@
+rst_sim
+uar_sim 10
+run_sim 00 00 00 60
+uar_ch1 01
+uar_ch0 00
+uar_sim 32
+run_sim 00 00 00 60
+uar_ch1 03
+uar_ch0 02
+uar_sim 54
+uar_ch1 05
+uar_ch0 04
+run_sim 00 00 00 60
+# Insert Stop bit Error
+uar_sim 42 00 01
+run_sim 00 00 00 60
+# check still old value is present 
+uar_ch1 05
+uar_ch0 04
+# 
+# do a successfull transmition to finish
+uar_sim 76
+run_sim 00 00 00 60
+uar_ch1 07
+uar_ch0 06
+run_sim 00 00 00 60
+
+
