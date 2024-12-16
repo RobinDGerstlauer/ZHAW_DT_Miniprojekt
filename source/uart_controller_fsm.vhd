@@ -74,7 +74,7 @@ begin
         next_fsm_state <= st_wait_rx_byte;
 
       when st_wait_rx_byte =>
-        if (bit_count = "0000") and (baud_tick = '1') then
+        if (bit_count = "1001") and (baud_tick = '1') then
           next_fsm_state <= st_check_rx;
         end if ;
 

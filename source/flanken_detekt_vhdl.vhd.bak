@@ -45,8 +45,8 @@ BEGIN
 			q_0 <= '0';
 			q_1 <= '0';
 		ELSIF (rising_edge(clk)) THEN
-			q_1 <= q_0;	
-			q_0 <= data_in;	
+			q_0 <= data_in;
+			q_1 <= q_0;			
 		END IF;
 	END PROCESS flip_flops;	
 	 

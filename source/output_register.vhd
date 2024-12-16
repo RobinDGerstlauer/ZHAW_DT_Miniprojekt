@@ -39,7 +39,7 @@ begin
   --------------------------------------------------
   -- PROCESS FOR COMBINATORIAL LOGIC
   --------------------------------------------------
-  comb_logic : process(data_valid, parallel_in, reg_data)
+  comb_logic : process(All)
   begin
     -- Standardwert beibehalten
     next_data <= reg_data;
@@ -53,7 +53,7 @@ begin
   --------------------------------------------------
   -- PROCESS FOR REGISTERS
   --------------------------------------------------
-  flip_flops : process(clk, reset_n)
+  flip_flops : process(All)
   begin
     if reset_n = '0' then
       reg_data <= (others => '0');  -- Initialisiert das Register auf 0

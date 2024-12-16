@@ -137,6 +137,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 2820 304 2916 336))
 )
 (pin
 	(output)
@@ -153,6 +154,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 2817 440 2913 472))
 )
 (symbol
 	(rect 424 328 456 360)
@@ -755,23 +757,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 8 8)(pt 24 8))
 	)
 )
-(symbol
-	(rect 2336 568 2368 600)
-	(text "GND" (rect 8 16 49 34)(font "Arial" (font_size 6)))
-	(text "inst17" (rect 3 21 66 46)(font "Intel Clear" )(invisible))
-	(port
-		(pt 16 0)
-		(output)
-		(text "1" (rect 18 0 30 22)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 18 0 30 22)(font "Courier New" (bold))(invisible))
-		(line (pt 16 8)(pt 16 0))
-	)
-	(drawing
-		(line (pt 8 8)(pt 16 16))
-		(line (pt 16 16)(pt 24 8))
-		(line (pt 8 8)(pt 24 8))
-	)
-)
 (connector
 	(pt 1376 88)
 	(pt 1112 88)
@@ -1319,28 +1304,28 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
+	(pt 2344 480)
+	(pt 2400 480)
+)
+(connector
 	(pt 2344 464)
+	(pt 2344 480)
+)
+(connector
+	(pt 2344 480)
 	(pt 2344 496)
 )
 (connector
-	(pt 2400 480)
-	(pt 2352 480)
+	(pt 2344 344)
+	(pt 2400 344)
 )
 (connector
 	(pt 2344 328)
+	(pt 2344 344)
+)
+(connector
+	(pt 2344 344)
 	(pt 2344 448)
-)
-(connector
-	(pt 2400 344)
-	(pt 2352 344)
-)
-(connector
-	(pt 2352 344)
-	(pt 2352 480)
-)
-(connector
-	(pt 2352 480)
-	(pt 2352 568)
 )
 (junction (pt 1112 160))
 (junction (pt 648 184))
@@ -1366,7 +1351,8 @@ https://fpgasoftware.intel.com/eula.
 (junction (pt 2344 464))
 (junction (pt 2344 448))
 (junction (pt 2344 328))
-(junction (pt 2352 480))
+(junction (pt 2344 480))
+(junction (pt 2344 344))
 (text "50 MHZ Board Takt" (rect 1000 0 1217 30)(font "Intel Clear" (font_size 8)))
 (text "Serial Data RX " (rect 1376 232 1540 262)(font "Intel Clear" (font_size 8)))
 (text "System Reset_n" (rect 1368 104 1546 134)(font "Intel Clear" (font_size 8)))

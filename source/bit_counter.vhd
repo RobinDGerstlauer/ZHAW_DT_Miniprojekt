@@ -48,7 +48,7 @@ begin
       next_count <= to_unsigned(0, width);
 
 
-    elsif (baud_tick = '1' and count > max_val) then
+    elsif (baud_tick = '1' and count < max_val) then
       next_count <= count+1;
 
    
