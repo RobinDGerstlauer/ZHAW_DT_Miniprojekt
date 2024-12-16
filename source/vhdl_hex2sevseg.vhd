@@ -3,7 +3,7 @@
 --
 -- File Name   : vhdl_template
 -- Description : Template for DT lessons
---
+-- gerst, wyssl, stald 3.12.2024
 -- Features:     
 --
 --------------------------------------------------------------------

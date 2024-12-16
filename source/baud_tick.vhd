@@ -1,7 +1,7 @@
 -------------------------------------------
 -- Block code:  baud_tick.vhd
 -- History: 	12.Nov.2013 - 1st version (dqtm)
---                 <date> - <changes>  (<author>)
+--                gerst, wyssl, stald 3.12.2024
 -- Function: down-counter, with start input and count output. 
 -- 			The input start should be a pulse which causes the 
 --			counter to load its max-value. When start is off,
