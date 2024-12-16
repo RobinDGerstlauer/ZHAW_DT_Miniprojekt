@@ -1,0 +1,1841 @@
+pwd
+# C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/simulations/uart_top_tb/modelsim
+do ../compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:43 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/simulation_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling package simulation_pkg
+# -- Compiling package body simulation_pkg
+# -- Loading package simulation_pkg
+# End time: 12:04:43 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:43 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/standard_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package standard_driver_pkg
+# -- Compiling package body standard_driver_pkg
+# -- Loading package standard_driver_pkg
+# End time: 12:04:43 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:43 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/user_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package user_driver_pkg
+# -- Compiling package body user_driver_pkg
+# -- Loading package user_driver_pkg
+# End time: 12:04:44 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/clock_sync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clock_sync
+# -- Compiling architecture rtl of clock_sync
+# End time: 12:04:44 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/shiftreg_uart.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftreg_uart
+# -- Compiling architecture rtl of shiftreg_uart
+# End time: 12:04:44 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/output_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity output_register
+# -- Compiling architecture rtl of output_register
+# End time: 12:04:44 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_controller_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_controller_fsm
+# -- Compiling architecture rtl of uart_controller_fsm
+# End time: 12:04:44 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/baud_tick.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity baud_tick
+# -- Compiling architecture rtl of baud_tick
+# End time: 12:04:45 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/flanken_detekt_vhdl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flanken_detekt_vhdl
+# -- Compiling architecture rtl of flanken_detekt_vhdl
+# End time: 12:04:45 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/vhdl_hex2sevseg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity vhdl_hex2sevseg
+# -- Compiling architecture vhdl_hex2sevseg_a of vhdl_hex2sevseg
+# End time: 12:04:45 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/modulo_divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity modulo_divider
+# -- Compiling architecture rtl of modulo_divider
+# ** Warning: ../../../source/modulo_divider.vhd(31): (vcom-1013) Subtype of "ieee.NUMERIC_STD.UNSIGNED" depends on value of signal "width".
+# End time: 12:04:45 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/bit_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bit_counter
+# -- Compiling architecture rtl of bit_counter
+# End time: 12:04:45 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/signal_checker.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity signal_checker
+# -- Compiling architecture rtl of signal_checker
+# End time: 12:04:46 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:04:46 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "../../../source/uart_top.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 12:04:46 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/23.1std/questa_fse/win64/vcom failed.
+# Error in macro ./../compile.do line 18
+# C:/intelFPGA_lite/23.1std/questa_fse/win64/vcom failed.
+#     while executing
+# "vcom -2008 -explicit -work work ../../../source/uart_top.vhd"
+do ../compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:04 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/simulation_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling package simulation_pkg
+# -- Compiling package body simulation_pkg
+# -- Loading package simulation_pkg
+# End time: 12:09:04 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:04 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/standard_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package standard_driver_pkg
+# -- Compiling package body standard_driver_pkg
+# -- Loading package standard_driver_pkg
+# End time: 12:09:04 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:04 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/user_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package user_driver_pkg
+# -- Compiling package body user_driver_pkg
+# -- Loading package user_driver_pkg
+# End time: 12:09:04 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:04 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/clock_sync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clock_sync
+# -- Compiling architecture rtl of clock_sync
+# End time: 12:09:04 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:04 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/shiftreg_uart.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftreg_uart
+# -- Compiling architecture rtl of shiftreg_uart
+# End time: 12:09:05 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:05 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/output_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity output_register
+# -- Compiling architecture rtl of output_register
+# End time: 12:09:05 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:05 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_controller_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_controller_fsm
+# -- Compiling architecture rtl of uart_controller_fsm
+# End time: 12:09:05 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:05 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/baud_tick.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity baud_tick
+# -- Compiling architecture rtl of baud_tick
+# End time: 12:09:05 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:05 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/flanken_detekt_vhdl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flanken_detekt_vhdl
+# -- Compiling architecture rtl of flanken_detekt_vhdl
+# End time: 12:09:05 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:05 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/vhdl_hex2sevseg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity vhdl_hex2sevseg
+# -- Compiling architecture vhdl_hex2sevseg_a of vhdl_hex2sevseg
+# End time: 12:09:06 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:06 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/modulo_divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity modulo_divider
+# -- Compiling architecture rtl of modulo_divider
+# ** Warning: ../../../source/modulo_divider.vhd(31): (vcom-1013) Subtype of "ieee.NUMERIC_STD.UNSIGNED" depends on value of signal "width".
+# End time: 12:09:06 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:06 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/bit_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bit_counter
+# -- Compiling architecture rtl of bit_counter
+# End time: 12:09:06 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:06 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/signal_checker.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity signal_checker
+# -- Compiling architecture rtl of signal_checker
+# End time: 12:09:06 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:06 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity uart_top
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:09:06 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:09:07 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top_tb.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "../../../source/uart_top_tb.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 12:09:07 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/23.1std/questa_fse/win64/vcom failed.
+# Error in macro ./../compile.do line 19
+# C:/intelFPGA_lite/23.1std/questa_fse/win64/vcom failed.
+#     while executing
+# "vcom -2008 -explicit -work work ../../../source/uart_top_tb.vhd"
+do ../compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:20 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/simulation_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling package simulation_pkg
+# -- Compiling package body simulation_pkg
+# -- Loading package simulation_pkg
+# End time: 12:10:20 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:20 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/standard_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package standard_driver_pkg
+# -- Compiling package body standard_driver_pkg
+# -- Loading package standard_driver_pkg
+# End time: 12:10:20 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:20 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/user_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package user_driver_pkg
+# -- Compiling package body user_driver_pkg
+# -- Loading package user_driver_pkg
+# End time: 12:10:21 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:21 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/clock_sync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clock_sync
+# -- Compiling architecture rtl of clock_sync
+# End time: 12:10:21 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:21 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/shiftreg_uart.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftreg_uart
+# -- Compiling architecture rtl of shiftreg_uart
+# End time: 12:10:21 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:21 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/output_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity output_register
+# -- Compiling architecture rtl of output_register
+# End time: 12:10:21 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:21 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_controller_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_controller_fsm
+# -- Compiling architecture rtl of uart_controller_fsm
+# End time: 12:10:21 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:21 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/baud_tick.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity baud_tick
+# -- Compiling architecture rtl of baud_tick
+# End time: 12:10:22 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:22 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/flanken_detekt_vhdl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flanken_detekt_vhdl
+# -- Compiling architecture rtl of flanken_detekt_vhdl
+# End time: 12:10:22 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:22 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/vhdl_hex2sevseg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity vhdl_hex2sevseg
+# -- Compiling architecture vhdl_hex2sevseg_a of vhdl_hex2sevseg
+# End time: 12:10:22 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:22 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/modulo_divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity modulo_divider
+# -- Compiling architecture rtl of modulo_divider
+# ** Warning: ../../../source/modulo_divider.vhd(31): (vcom-1013) Subtype of "ieee.NUMERIC_STD.UNSIGNED" depends on value of signal "width".
+# End time: 12:10:22 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:22 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/bit_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bit_counter
+# -- Compiling architecture rtl of bit_counter
+# End time: 12:10:22 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:22 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/signal_checker.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity signal_checker
+# -- Compiling architecture rtl of signal_checker
+# End time: 12:10:23 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:23 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity uart_top
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:10:23 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:10:23 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../../../source/uart_top_tb.vhd(25): (vcom-1615) Existing entity 'uart_top' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top.vhd(25) will be overwritten.
+# -- Compiling entity uart_top
+# ** Warning: ../../../source/uart_top_tb.vhd(39): (vcom-1615) Existing architecture 'uart_top(bdf_type)' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top.vhd(39) will be overwritten.
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:10:23 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# ** Warning: (vsim-8689) Ignoring plusarg '+acc'.  Did you mean '-voptargs=+acc'?
+# vsim "+acc" -t 1ns -lib work work.uart_top_tb 
+# Start time: 12:10:23 on Dec 16,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-13) Recompile work.uart_top_tb because ieee.std_logic_1164, std.textio, ieee.numeric_std, work.simulation_pkg, std.env, work.standard_driver_pkg, work.user_driver_pkg have changed.
+# ** Warning: (vopt-12) Recompile work.uart_top_tb(struct) after work.uart_top_tb is recompiled.
+# ** Warning: (vopt-13) Recompile work.uart_top_tb(struct) because ieee.std_logic_1164, std.textio, ieee.numeric_std, work.simulation_pkg, std.env, work.standard_driver_pkg, work.user_driver_pkg have changed.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=4.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.simulation_pkg(body)
+# Loading work.standard_driver_pkg(body)
+# Loading work.user_driver_pkg(body)
+# Loading work.uart_top_tb(struct)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: gelk  Hostname: CLT-MOB-T-6007  ProcessID: 16756
+#           Attempting to use alternate WLF file "./wlftr6eibd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftr6eibd
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst6/bit_count'.
+# Executing ONERROR command at macro ././wave.do line 3
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/fsm_state'.
+# Executing ONERROR command at macro ././wave.do line 4
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst12/parallel_out'.
+# Executing ONERROR command at macro ././wave.do line 6
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/SYNTHESIZED_WIRE_30'.
+# Executing ONERROR command at macro ././wave.do line 7
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst7/hex_lsb_out'.
+# Executing ONERROR command at macro ././wave.do line 8
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst7/hex_msb_out'.
+# Executing ONERROR command at macro ././wave.do line 9
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst7/parallel_in'.
+# Executing ONERROR command at macro ././wave.do line 10
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/bit_count'.
+# Executing ONERROR command at macro ././wave.do line 11
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/parallel_data'.
+# Executing ONERROR command at macro ././wave.do line 12
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/fsm_state'.
+# Executing ONERROR command at macro ././wave.do line 13
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/next_fsm_state'.
+# Executing ONERROR command at macro ././wave.do line 14
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/SYNTHESIZED_WIRE_27'.
+# Executing ONERROR command at macro ././wave.do line 15
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/SYNTHESIZED_WIRE_34'.
+# Executing ONERROR command at macro ././wave.do line 16
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /uart_top_tb/DUT/b2v_inst
+# LOGIC HAS BEEN RESET FOR 400 ns
+# 10 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x01
+# DISPLAY OUTPUT O.K., received 0x00
+# 32 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x03
+# DISPLAY OUTPUT O.K., received 0x02
+# 54 SENT TO DUT
+# DISPLAY OUTPUT O.K., received 0x05
+# DISPLAY OUTPUT O.K., received 0x04
+# SIMULATED FOR 00000060 CLOCKS
+# 42 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x05
+# DISPLAY OUTPUT O.K., received 0x04
+# 76 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x07
+# DISPLAY OUTPUT O.K., received 0x06
+# SIMULATED FOR 00000060 CLOCKS
+#  CONGRATULATIONS ALL TESTS PASS 
+# Break in Subprogram end_simulation at ../../support/simulation_pkg.vhd line 87
+add wave -position insertpoint  \
+sim:/uart_top_tb/DUT/b2v_inst/width \
+sim:/uart_top_tb/DUT/b2v_inst/count \
+sim:/uart_top_tb/DUT/b2v_inst/next_count
+do ../compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:31 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/simulation_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling package simulation_pkg
+# -- Compiling package body simulation_pkg
+# -- Loading package simulation_pkg
+# End time: 12:11:31 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:31 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/standard_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package standard_driver_pkg
+# -- Compiling package body standard_driver_pkg
+# -- Loading package standard_driver_pkg
+# End time: 12:11:31 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:31 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/user_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package user_driver_pkg
+# -- Compiling package body user_driver_pkg
+# -- Loading package user_driver_pkg
+# End time: 12:11:31 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:31 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/clock_sync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clock_sync
+# -- Compiling architecture rtl of clock_sync
+# End time: 12:11:32 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:32 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/shiftreg_uart.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftreg_uart
+# -- Compiling architecture rtl of shiftreg_uart
+# End time: 12:11:32 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:32 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/output_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity output_register
+# -- Compiling architecture rtl of output_register
+# End time: 12:11:32 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:32 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_controller_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_controller_fsm
+# -- Compiling architecture rtl of uart_controller_fsm
+# End time: 12:11:33 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:33 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/baud_tick.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity baud_tick
+# -- Compiling architecture rtl of baud_tick
+# End time: 12:11:33 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:33 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/flanken_detekt_vhdl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flanken_detekt_vhdl
+# -- Compiling architecture rtl of flanken_detekt_vhdl
+# End time: 12:11:33 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:33 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/vhdl_hex2sevseg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity vhdl_hex2sevseg
+# -- Compiling architecture vhdl_hex2sevseg_a of vhdl_hex2sevseg
+# End time: 12:11:33 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:33 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/modulo_divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity modulo_divider
+# -- Compiling architecture rtl of modulo_divider
+# ** Warning: ../../../source/modulo_divider.vhd(31): (vcom-1013) Subtype of "ieee.NUMERIC_STD.UNSIGNED" depends on value of signal "width".
+# End time: 12:11:33 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:33 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/bit_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bit_counter
+# -- Compiling architecture rtl of bit_counter
+# End time: 12:11:34 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:34 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/signal_checker.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity signal_checker
+# -- Compiling architecture rtl of signal_checker
+# End time: 12:11:34 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:34 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../../../source/uart_top.vhd(25): (vcom-1615) Existing entity 'uart_top' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top_tb.vhd(25) will be overwritten.
+# -- Compiling entity uart_top
+# ** Warning: ../../../source/uart_top.vhd(39): (vcom-1615) Existing architecture 'uart_top(bdf_type)' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top_tb.vhd(39) will be overwritten.
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:11:34 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:11:34 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../../../source/uart_top_tb.vhd(25): (vcom-1615) Existing entity 'uart_top' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top.vhd(25) will be overwritten.
+# -- Compiling entity uart_top
+# ** Warning: ../../../source/uart_top_tb.vhd(39): (vcom-1615) Existing architecture 'uart_top(bdf_type)' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top.vhd(39) will be overwritten.
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:11:34 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:11:36 on Dec 16,2024, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 15
+# ** Warning: (vsim-8689) Ignoring plusarg '+acc'.  Did you mean '-voptargs=+acc'?
+# vsim "+acc" -t 1ns -lib work work.uart_top_tb 
+# Start time: 12:11:36 on Dec 16,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.simulation_pkg(body)
+# Loading work.standard_driver_pkg(body)
+# Loading work.user_driver_pkg(body)
+# Loading work.uart_top_tb(struct)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: gelk  Hostname: CLT-MOB-T-6007  ProcessID: 16756
+#           Attempting to use alternate WLF file "./wlft3rnmq5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3rnmq5
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst6/bit_count'.
+# Executing ONERROR command at macro ././wave.do line 3
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/fsm_state'.
+# Executing ONERROR command at macro ././wave.do line 4
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst12/parallel_out'.
+# Executing ONERROR command at macro ././wave.do line 6
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/SYNTHESIZED_WIRE_30'.
+# Executing ONERROR command at macro ././wave.do line 7
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst7/hex_lsb_out'.
+# Executing ONERROR command at macro ././wave.do line 8
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst7/hex_msb_out'.
+# Executing ONERROR command at macro ././wave.do line 9
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst7/parallel_in'.
+# Executing ONERROR command at macro ././wave.do line 10
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/bit_count'.
+# Executing ONERROR command at macro ././wave.do line 11
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/parallel_data'.
+# Executing ONERROR command at macro ././wave.do line 12
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/fsm_state'.
+# Executing ONERROR command at macro ././wave.do line 13
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/next_fsm_state'.
+# Executing ONERROR command at macro ././wave.do line 14
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/SYNTHESIZED_WIRE_27'.
+# Executing ONERROR command at macro ././wave.do line 15
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/SYNTHESIZED_WIRE_34'.
+# Executing ONERROR command at macro ././wave.do line 16
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /uart_top_tb/DUT/b2v_inst
+# LOGIC HAS BEEN RESET FOR 400 ns
+# 10 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x01
+# DISPLAY OUTPUT O.K., received 0x00
+# 32 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x03
+# DISPLAY OUTPUT O.K., received 0x02
+# 54 SENT TO DUT
+# DISPLAY OUTPUT O.K., received 0x05
+# DISPLAY OUTPUT O.K., received 0x04
+# SIMULATED FOR 00000060 CLOCKS
+# 42 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x05
+# DISPLAY OUTPUT O.K., received 0x04
+# 76 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x07
+# DISPLAY OUTPUT O.K., received 0x06
+# SIMULATED FOR 00000060 CLOCKS
+#  CONGRATULATIONS ALL TESTS PASS 
+# Break in Subprogram end_simulation at ../../support/simulation_pkg.vhd line 87
+add wave -position insertpoint  \
+sim:/uart_top_tb/DUT/b2v_inst7/width \
+sim:/uart_top_tb/DUT/b2v_inst7/serial_out \
+sim:/uart_top_tb/DUT/b2v_inst7/shiftreg \
+sim:/uart_top_tb/DUT/b2v_inst7/next_shiftreg
+do ../compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:43 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/simulation_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling package simulation_pkg
+# -- Compiling package body simulation_pkg
+# -- Loading package simulation_pkg
+# End time: 12:12:43 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:43 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/standard_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package standard_driver_pkg
+# -- Compiling package body standard_driver_pkg
+# -- Loading package standard_driver_pkg
+# End time: 12:12:43 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:43 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/user_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package user_driver_pkg
+# -- Compiling package body user_driver_pkg
+# -- Loading package user_driver_pkg
+# End time: 12:12:44 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/clock_sync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clock_sync
+# -- Compiling architecture rtl of clock_sync
+# End time: 12:12:44 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/shiftreg_uart.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftreg_uart
+# -- Compiling architecture rtl of shiftreg_uart
+# End time: 12:12:44 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/output_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity output_register
+# -- Compiling architecture rtl of output_register
+# End time: 12:12:44 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_controller_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_controller_fsm
+# -- Compiling architecture rtl of uart_controller_fsm
+# End time: 12:12:44 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/baud_tick.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity baud_tick
+# -- Compiling architecture rtl of baud_tick
+# End time: 12:12:45 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/flanken_detekt_vhdl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flanken_detekt_vhdl
+# -- Compiling architecture rtl of flanken_detekt_vhdl
+# End time: 12:12:45 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/vhdl_hex2sevseg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity vhdl_hex2sevseg
+# -- Compiling architecture vhdl_hex2sevseg_a of vhdl_hex2sevseg
+# End time: 12:12:45 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/modulo_divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity modulo_divider
+# -- Compiling architecture rtl of modulo_divider
+# ** Warning: ../../../source/modulo_divider.vhd(31): (vcom-1013) Subtype of "ieee.NUMERIC_STD.UNSIGNED" depends on value of signal "width".
+# End time: 12:12:45 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/bit_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bit_counter
+# -- Compiling architecture rtl of bit_counter
+# End time: 12:12:45 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:46 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/signal_checker.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity signal_checker
+# -- Compiling architecture rtl of signal_checker
+# End time: 12:12:46 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:46 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../../../source/uart_top.vhd(25): (vcom-1615) Existing entity 'uart_top' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top_tb.vhd(25) will be overwritten.
+# -- Compiling entity uart_top
+# ** Warning: ../../../source/uart_top.vhd(39): (vcom-1615) Existing architecture 'uart_top(bdf_type)' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top_tb.vhd(39) will be overwritten.
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:12:46 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:12:46 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../../../source/uart_top_tb.vhd(25): (vcom-1615) Existing entity 'uart_top' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top.vhd(25) will be overwritten.
+# -- Compiling entity uart_top
+# ** Warning: ../../../source/uart_top_tb.vhd(39): (vcom-1615) Existing architecture 'uart_top(bdf_type)' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top.vhd(39) will be overwritten.
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:12:46 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:12:48 on Dec 16,2024, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 11
+# ** Warning: (vsim-8689) Ignoring plusarg '+acc'.  Did you mean '-voptargs=+acc'?
+# vsim "+acc" -t 1ns -lib work work.uart_top_tb 
+# Start time: 12:12:48 on Dec 16,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.simulation_pkg(body)
+# Loading work.standard_driver_pkg(body)
+# Loading work.user_driver_pkg(body)
+# Loading work.uart_top_tb(struct)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: gelk  Hostname: CLT-MOB-T-6007  ProcessID: 16756
+#           Attempting to use alternate WLF file "./wlftzbb6td".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzbb6td
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst6/bit_count'.
+# Executing ONERROR command at macro ././wave.do line 3
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/fsm_state'.
+# Executing ONERROR command at macro ././wave.do line 4
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst12/parallel_out'.
+# Executing ONERROR command at macro ././wave.do line 6
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/SYNTHESIZED_WIRE_30'.
+# Executing ONERROR command at macro ././wave.do line 7
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst7/hex_lsb_out'.
+# Executing ONERROR command at macro ././wave.do line 8
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst7/hex_msb_out'.
+# Executing ONERROR command at macro ././wave.do line 9
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst7/parallel_in'.
+# Executing ONERROR command at macro ././wave.do line 10
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/bit_count'.
+# Executing ONERROR command at macro ././wave.do line 11
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/parallel_data'.
+# Executing ONERROR command at macro ././wave.do line 12
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/fsm_state'.
+# Executing ONERROR command at macro ././wave.do line 13
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/b2v_inst/next_fsm_state'.
+# Executing ONERROR command at macro ././wave.do line 14
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/SYNTHESIZED_WIRE_27'.
+# Executing ONERROR command at macro ././wave.do line 15
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/uart_top_tb/DUT/SYNTHESIZED_WIRE_34'.
+# Executing ONERROR command at macro ././wave.do line 16
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /uart_top_tb/DUT/b2v_inst
+# LOGIC HAS BEEN RESET FOR 400 ns
+# 10 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x01
+# DISPLAY OUTPUT O.K., received 0x00
+# 32 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x03
+# DISPLAY OUTPUT O.K., received 0x02
+# 54 SENT TO DUT
+# DISPLAY OUTPUT O.K., received 0x05
+# DISPLAY OUTPUT O.K., received 0x04
+# SIMULATED FOR 00000060 CLOCKS
+# 42 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x05
+# DISPLAY OUTPUT O.K., received 0x04
+# 76 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x07
+# DISPLAY OUTPUT O.K., received 0x06
+# SIMULATED FOR 00000060 CLOCKS
+#  CONGRATULATIONS ALL TESTS PASS 
+# Break in Subprogram end_simulation at ../../support/simulation_pkg.vhd line 87
+add wave -position insertpoint  \
+sim:/uart_top_tb/DUT/b2v_inst7/width \
+sim:/uart_top_tb/DUT/b2v_inst7/serial_out \
+sim:/uart_top_tb/DUT/b2v_inst7/shiftreg \
+
+
+
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/simulations/uart_top_tb/modelsim/wave.do
+do ../compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/simulation_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling package simulation_pkg
+# -- Compiling package body simulation_pkg
+# -- Loading package simulation_pkg
+# End time: 12:13:44 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/standard_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package standard_driver_pkg
+# -- Compiling package body standard_driver_pkg
+# -- Loading package standard_driver_pkg
+# End time: 12:13:44 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:44 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/user_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package user_driver_pkg
+# -- Compiling package body user_driver_pkg
+# -- Loading package user_driver_pkg
+# End time: 12:13:44 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/clock_sync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clock_sync
+# -- Compiling architecture rtl of clock_sync
+# End time: 12:13:45 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/shiftreg_uart.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftreg_uart
+# -- Compiling architecture rtl of shiftreg_uart
+# End time: 12:13:45 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/output_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity output_register
+# -- Compiling architecture rtl of output_register
+# End time: 12:13:45 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_controller_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_controller_fsm
+# -- Compiling architecture rtl of uart_controller_fsm
+# End time: 12:13:45 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:45 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/baud_tick.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity baud_tick
+# -- Compiling architecture rtl of baud_tick
+# End time: 12:13:46 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:46 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/flanken_detekt_vhdl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flanken_detekt_vhdl
+# -- Compiling architecture rtl of flanken_detekt_vhdl
+# End time: 12:13:46 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:46 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/vhdl_hex2sevseg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity vhdl_hex2sevseg
+# -- Compiling architecture vhdl_hex2sevseg_a of vhdl_hex2sevseg
+# End time: 12:13:46 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:46 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/modulo_divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity modulo_divider
+# -- Compiling architecture rtl of modulo_divider
+# ** Warning: ../../../source/modulo_divider.vhd(31): (vcom-1013) Subtype of "ieee.NUMERIC_STD.UNSIGNED" depends on value of signal "width".
+# End time: 12:13:46 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:46 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/bit_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bit_counter
+# -- Compiling architecture rtl of bit_counter
+# End time: 12:13:46 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:46 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/signal_checker.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity signal_checker
+# -- Compiling architecture rtl of signal_checker
+# End time: 12:13:47 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:47 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../../../source/uart_top.vhd(25): (vcom-1615) Existing entity 'uart_top' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top_tb.vhd(25) will be overwritten.
+# -- Compiling entity uart_top
+# ** Warning: ../../../source/uart_top.vhd(39): (vcom-1615) Existing architecture 'uart_top(bdf_type)' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top_tb.vhd(39) will be overwritten.
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:13:47 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:13:47 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../../../source/uart_top_tb.vhd(25): (vcom-1615) Existing entity 'uart_top' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top.vhd(25) will be overwritten.
+# -- Compiling entity uart_top
+# ** Warning: ../../../source/uart_top_tb.vhd(39): (vcom-1615) Existing architecture 'uart_top(bdf_type)' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top.vhd(39) will be overwritten.
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:13:47 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:13:49 on Dec 16,2024, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 11
+# ** Warning: (vsim-8689) Ignoring plusarg '+acc'.  Did you mean '-voptargs=+acc'?
+# vsim "+acc" -t 1ns -lib work work.uart_top_tb 
+# Start time: 12:13:49 on Dec 16,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.simulation_pkg(body)
+# Loading work.standard_driver_pkg(body)
+# Loading work.user_driver_pkg(body)
+# Loading work.uart_top_tb(struct)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: gelk  Hostname: CLT-MOB-T-6007  ProcessID: 16756
+#           Attempting to use alternate WLF file "./wlft6fe5hf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft6fe5hf
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /uart_top_tb/DUT/b2v_inst
+# LOGIC HAS BEEN RESET FOR 400 ns
+# 10 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x01
+# DISPLAY OUTPUT O.K., received 0x00
+# 32 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x03
+# DISPLAY OUTPUT O.K., received 0x02
+# 54 SENT TO DUT
+# DISPLAY OUTPUT O.K., received 0x05
+# DISPLAY OUTPUT O.K., received 0x04
+# SIMULATED FOR 00000060 CLOCKS
+# 42 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x05
+# DISPLAY OUTPUT O.K., received 0x04
+# 76 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x07
+# DISPLAY OUTPUT O.K., received 0x06
+# SIMULATED FOR 00000060 CLOCKS
+#  CONGRATULATIONS ALL TESTS PASS 
+# Break in Subprogram end_simulation at ../../support/simulation_pkg.vhd line 87
+# Causality operation skipped due to absence of debug database file
+add wave -position insertpoint  \
+sim:/uart_top_tb/DUT/b2v_inst11/reg_data \
+sim:/uart_top_tb/DUT/b2v_inst11/next_data
+do ../compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:47 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/simulation_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling package simulation_pkg
+# -- Compiling package body simulation_pkg
+# -- Loading package simulation_pkg
+# End time: 12:16:47 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:47 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/standard_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package standard_driver_pkg
+# -- Compiling package body standard_driver_pkg
+# -- Loading package standard_driver_pkg
+# End time: 12:16:47 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:47 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/user_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package user_driver_pkg
+# -- Compiling package body user_driver_pkg
+# -- Loading package user_driver_pkg
+# End time: 12:16:47 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:47 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/clock_sync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clock_sync
+# -- Compiling architecture rtl of clock_sync
+# End time: 12:16:47 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:47 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/shiftreg_uart.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftreg_uart
+# -- Compiling architecture rtl of shiftreg_uart
+# End time: 12:16:47 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:48 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/output_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity output_register
+# -- Compiling architecture rtl of output_register
+# End time: 12:16:48 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:48 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_controller_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_controller_fsm
+# -- Compiling architecture rtl of uart_controller_fsm
+# End time: 12:16:48 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:48 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/baud_tick.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity baud_tick
+# -- Compiling architecture rtl of baud_tick
+# End time: 12:16:48 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:48 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/flanken_detekt_vhdl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flanken_detekt_vhdl
+# -- Compiling architecture rtl of flanken_detekt_vhdl
+# End time: 12:16:48 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:48 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/vhdl_hex2sevseg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity vhdl_hex2sevseg
+# -- Compiling architecture vhdl_hex2sevseg_a of vhdl_hex2sevseg
+# End time: 12:16:48 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:49 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/modulo_divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity modulo_divider
+# -- Compiling architecture rtl of modulo_divider
+# ** Warning: ../../../source/modulo_divider.vhd(31): (vcom-1013) Subtype of "ieee.NUMERIC_STD.UNSIGNED" depends on value of signal "width".
+# End time: 12:16:49 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:49 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/bit_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bit_counter
+# -- Compiling architecture rtl of bit_counter
+# End time: 12:16:49 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:49 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/signal_checker.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity signal_checker
+# -- Compiling architecture rtl of signal_checker
+# End time: 12:16:49 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:49 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../../../source/uart_top.vhd(25): (vcom-1615) Existing entity 'uart_top' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top_tb.vhd(25) will be overwritten.
+# -- Compiling entity uart_top
+# ** Warning: ../../../source/uart_top.vhd(39): (vcom-1615) Existing architecture 'uart_top(bdf_type)' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top_tb.vhd(39) will be overwritten.
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:16:49 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:16:49 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../../../source/uart_top_tb.vhd(25): (vcom-1615) Existing entity 'uart_top' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top.vhd(25) will be overwritten.
+# -- Compiling entity uart_top
+# ** Warning: ../../../source/uart_top_tb.vhd(39): (vcom-1615) Existing architecture 'uart_top(bdf_type)' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top.vhd(39) will be overwritten.
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:16:49 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:16:52 on Dec 16,2024, Elapsed time: 0:03:03
+# Errors: 0, Warnings: 11
+# ** Warning: (vsim-8689) Ignoring plusarg '+acc'.  Did you mean '-voptargs=+acc'?
+# vsim "+acc" -t 1ns -lib work work.uart_top_tb 
+# Start time: 12:16:52 on Dec 16,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.simulation_pkg(body)
+# Loading work.standard_driver_pkg(body)
+# Loading work.user_driver_pkg(body)
+# Loading work.uart_top_tb(struct)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: gelk  Hostname: CLT-MOB-T-6007  ProcessID: 16756
+#           Attempting to use alternate WLF file "./wlftriv1te".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftriv1te
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /uart_top_tb/DUT/b2v_inst
+# LOGIC HAS BEEN RESET FOR 400 ns
+# 10 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x01
+# DISPLAY OUTPUT O.K., received 0x00
+# 32 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x03
+# DISPLAY OUTPUT O.K., received 0x02
+# 54 SENT TO DUT
+# DISPLAY OUTPUT O.K., received 0x05
+# DISPLAY OUTPUT O.K., received 0x04
+# SIMULATED FOR 00000060 CLOCKS
+# 42 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x05
+# DISPLAY OUTPUT O.K., received 0x04
+# 76 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x07
+# DISPLAY OUTPUT O.K., received 0x06
+# SIMULATED FOR 00000060 CLOCKS
+#  CONGRATULATIONS ALL TESTS PASS 
+# Break in Subprogram end_simulation at ../../support/simulation_pkg.vhd line 87
+add wave -position insertpoint  \
+sim:/uart_top_tb/DUT/b2v_inst11/reg_data \
+sim:/uart_top_tb/DUT/b2v_inst11/next_data
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/simulations/uart_top_tb/modelsim/wave.do
+do ../compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:48 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/simulation_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling package simulation_pkg
+# -- Compiling package body simulation_pkg
+# -- Loading package simulation_pkg
+# End time: 12:17:48 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:48 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/standard_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package standard_driver_pkg
+# -- Compiling package body standard_driver_pkg
+# -- Loading package standard_driver_pkg
+# End time: 12:17:48 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:48 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../support/user_driver_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package simulation_pkg
+# -- Compiling package user_driver_pkg
+# -- Compiling package body user_driver_pkg
+# -- Loading package user_driver_pkg
+# End time: 12:17:48 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:48 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/clock_sync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clock_sync
+# -- Compiling architecture rtl of clock_sync
+# End time: 12:17:48 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:48 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/shiftreg_uart.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftreg_uart
+# -- Compiling architecture rtl of shiftreg_uart
+# End time: 12:17:49 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:49 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/output_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity output_register
+# -- Compiling architecture rtl of output_register
+# End time: 12:17:49 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:49 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_controller_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_controller_fsm
+# -- Compiling architecture rtl of uart_controller_fsm
+# End time: 12:17:49 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:49 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/baud_tick.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity baud_tick
+# -- Compiling architecture rtl of baud_tick
+# End time: 12:17:49 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:49 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/flanken_detekt_vhdl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flanken_detekt_vhdl
+# -- Compiling architecture rtl of flanken_detekt_vhdl
+# End time: 12:17:49 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:49 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/vhdl_hex2sevseg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity vhdl_hex2sevseg
+# -- Compiling architecture vhdl_hex2sevseg_a of vhdl_hex2sevseg
+# End time: 12:17:50 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:50 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/modulo_divider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity modulo_divider
+# -- Compiling architecture rtl of modulo_divider
+# ** Warning: ../../../source/modulo_divider.vhd(31): (vcom-1013) Subtype of "ieee.NUMERIC_STD.UNSIGNED" depends on value of signal "width".
+# End time: 12:17:50 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:50 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/bit_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bit_counter
+# -- Compiling architecture rtl of bit_counter
+# End time: 12:17:50 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:50 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/signal_checker.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity signal_checker
+# -- Compiling architecture rtl of signal_checker
+# End time: 12:17:50 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:50 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../../../source/uart_top.vhd(25): (vcom-1615) Existing entity 'uart_top' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top_tb.vhd(25) will be overwritten.
+# -- Compiling entity uart_top
+# ** Warning: ../../../source/uart_top.vhd(39): (vcom-1615) Existing architecture 'uart_top(bdf_type)' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top_tb.vhd(39) will be overwritten.
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:17:50 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 12:17:50 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work work ../../../source/uart_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../../../source/uart_top_tb.vhd(25): (vcom-1615) Existing entity 'uart_top' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top.vhd(25) will be overwritten.
+# -- Compiling entity uart_top
+# ** Warning: ../../../source/uart_top_tb.vhd(39): (vcom-1615) Existing architecture 'uart_top(bdf_type)' at C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/source/uart_top.vhd(39) will be overwritten.
+# -- Compiling architecture bdf_type of uart_top
+# End time: 12:17:50 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:17:53 on Dec 16,2024, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 11
+# ** Warning: (vsim-8689) Ignoring plusarg '+acc'.  Did you mean '-voptargs=+acc'?
+# vsim "+acc" -t 1ns -lib work work.uart_top_tb 
+# Start time: 12:17:53 on Dec 16,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.simulation_pkg(body)
+# Loading work.standard_driver_pkg(body)
+# Loading work.user_driver_pkg(body)
+# Loading work.uart_top_tb(struct)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: gelk  Hostname: CLT-MOB-T-6007  ProcessID: 16756
+#           Attempting to use alternate WLF file "./wlft7rdesm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7rdesm
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /uart_top_tb/DUT/b2v_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /uart_top_tb/DUT/b2v_inst
+# LOGIC HAS BEEN RESET FOR 400 ns
+# 10 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x01
+# DISPLAY OUTPUT O.K., received 0x00
+# 32 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x03
+# DISPLAY OUTPUT O.K., received 0x02
+# 54 SENT TO DUT
+# DISPLAY OUTPUT O.K., received 0x05
+# DISPLAY OUTPUT O.K., received 0x04
+# SIMULATED FOR 00000060 CLOCKS
+# 42 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x05
+# DISPLAY OUTPUT O.K., received 0x04
+# 76 SENT TO DUT
+# SIMULATED FOR 00000060 CLOCKS
+# DISPLAY OUTPUT O.K., received 0x07
+# DISPLAY OUTPUT O.K., received 0x06
+# SIMULATED FOR 00000060 CLOCKS
+#  CONGRATULATIONS ALL TESTS PASS 
+# Break in Subprogram end_simulation at ../../support/simulation_pkg.vhd line 87
+# End time: 12:20:49 on Dec 16,2024, Elapsed time: 0:02:56
+# Errors: 0, Warnings: 11

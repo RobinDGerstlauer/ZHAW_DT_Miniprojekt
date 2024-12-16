@@ -1,0 +1,87 @@
+[N
+11
+9
+4 lt_n
+3
+3 rtl
+11
+9 baud_tick
+1
+91 C:/Users/robin/Documents/uart_top/ZHAW_DT_Miniprojekt/simulations/uart_top_tb/modelsim/work
+4
+5 width
+5
+11 bit_counter
+6
+15 vhdl_hex2sevseg
+2
+13 shiftreg_uart
+8
+7 blank_n
+10
+5 rbi_n
+7
+17 vhdl_hex2sevseg_a
+]
+[G
+1
+11
+3
+1
+4
+1
+0
+6
+0
+0 0
+0
+0
+]
+[G
+1
+5
+3
+1
+4
+1
+0
+4
+0
+0 0
+0
+0
+]
+[G
+1
+2
+3
+1
+4
+1
+0
+10
+0
+0 0
+0
+0
+]
+[P
+1
+6
+7
+10
+9
+1
+0
+0
+]
+[P
+1
+6
+7
+8
+9
+1
+0
+0
+]
